@@ -1,0 +1,12 @@
+.grid-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+@media screen and (min-width: 700px) {
+    .grid-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+}

@@ -1,0 +1,29 @@
+:root {
+    --preto: #3D3D3D;
+    --cinza: #8A8A8A;
+    --cinza-claro: #D9D9D9;
+    --branco: #FFFFFF;
+    --azul-link: #699DEB;
+
+    --font-size: 20px;
+    --font-size-title: 32px;
+    --font-size-subtitle-mobile: 24px;
+    --font-size-subtitle: 22px;
+    --font-size-footer: 14px;
+
+    --font-family: "Trebuchet MS", sans-serif;
+
+    --container-padding-side: 24px;
+    --container-padding-side-mobile: 16px;
+
+    --subjects-text-padding: 16px 24px;
+
+    --button-padding: 8px;
+    --button-margin: 32px;
+    --button-margin-mobile: 24px;
+
+    --title-padding: 32px;
+    --title-padding-mobile: 16px;
+    --title-font-weight: 700;
+    --subtitle-font-weight: 600;
+}

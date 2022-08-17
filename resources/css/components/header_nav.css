@@ -1,0 +1,42 @@
+.header_nav {
+    height: 64px;
+}
+.header_nav-icon {
+    display: block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.header_nav-logo {
+    background-image: url("../../media/images/ic-logo.svg");
+}
+.header_nav-campus {
+    background-image: url("../../media/images/ic-on-campus.svg");
+}
+.header_nav-online {
+    background-image: url("../../media/images/ic-online.svg");
+}
+.header_nav-login {
+    background-image: url("../../media/images/ic-login.svg");
+}
+@media screen and (min-width: 700px) {
+    .header_nav .inline a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .header_nav .align-left {
+        margin-right: auto;
+    }
+    .header_nav-icon {
+        display: none;
+    }
+    .header_nav-icon.header_nav-logo {
+        display: block;
+    }
+    .header_nav .highlight {
+        color: var(--cinza);
+    }
+}

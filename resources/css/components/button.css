@@ -1,0 +1,15 @@
+.button {
+    background-color: var(--cinza);
+    color: var(--branco);
+    border: none;
+    padding: var(--button-padding);
+    width: 100%;
+    margin-top: var(--button-margin-mobile);
+    font-size: var(--font-size);
+}
+@media screen and (min-width: 700px) {
+    .button {
+        background-color: var(--preto);
+        margin-top: var(--button-margin);
+    }
+}

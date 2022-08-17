@@ -1,0 +1,26 @@
+.start-learning-section.container {
+    padding: 32px 16px;
+}
+.section.container {
+    padding: 16px 0 32px 0;
+}
+footer.container {
+    padding: 16px var(--container-padding-side-mobile);
+}
+@media screen and (min-width: 700px) {
+    nav.container {
+        padding: 0 var(--container-padding-side);
+    }
+    .page-hero.container {
+        padding: 32px 24px;
+    }
+    .section.container {
+        padding: 32px 0 32px 24px;
+    }
+    .start-learning-section.container {
+        padding: 32px 72px;
+    }
+    footer.container {
+        padding: 16px var(--container-padding-side);
+    }
+}

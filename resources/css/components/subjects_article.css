@@ -1,0 +1,19 @@
+.subjects_article {
+    padding: var(--subjects-text-padding);
+    background-color: var(--cinza-claro);
+}
+@media screen and (min-width: 700px) {
+    .subjects_article {
+        padding: 0;
+        background-color: var(--branco);
+    }
+    .subjects_article:hover {
+        cursor: pointer;
+    }
+    .subjects_article-text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: var(--subjects-text-padding);
+    }
+}

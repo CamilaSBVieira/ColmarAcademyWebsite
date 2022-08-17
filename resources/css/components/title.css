@@ -1,0 +1,22 @@
+.title {
+    font-size: var(--font-size-title);
+}
+.title-center {
+    text-align: center;
+}
+.title-sections {
+    padding-bottom: var(--title-padding-mobile);
+    font-weight: var(--title-font-weight);
+}
+.subtitle {
+    font-size: var(--font-size-subtitle-mobile);
+    font-weight: var(--subtitle-font-weight);
+}
+@media screen and (min-width: 700px) {
+    .title-sections {
+        padding-bottom: var(--title-padding);
+    }
+    .subtitle {
+        font-size: var(--font-size-subtitle);
+    }
+}
