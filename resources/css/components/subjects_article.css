@@ -1,6 +1,6 @@
 .subjects_article {
     padding: var(--subjects-text-padding);
-    background-color: var(--cinza-claro);
+    background-color: var(--background);
 }
 @media screen and (min-width: 700px) {
     .subjects_article {

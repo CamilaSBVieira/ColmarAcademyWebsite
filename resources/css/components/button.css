@@ -1,5 +1,5 @@
 .button {
-    background-color: var(--cinza);
+    background-color: var(--bg-secundario);
     color: var(--branco);
     border: none;
     padding: var(--button-padding);

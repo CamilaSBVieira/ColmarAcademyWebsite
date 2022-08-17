@@ -37,6 +37,6 @@
         display: block;
     }
     .header_nav .highlight {
-        color: var(--cinza);
+        color: var(--bg-secundario);
     }
 }

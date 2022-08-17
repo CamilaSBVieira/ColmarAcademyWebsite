@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./resources/media/images/colmarAcademy.ico" type="image/x-icon">
     <link rel="stylesheet" href="./resources/css/base/base.css">
+    <link rel="stylesheet" href="./resources/css/components/page-hero.css">
     <link rel="stylesheet" href="./resources/css/components/grid-section.css">
     <link rel="stylesheet" href="./resources/css/components/subjects_article.css">
     <link rel="stylesheet" href="./resources/css/components/split-section.css">
-    <link rel="stylesheet" href="./resources/css/components/split-section_article.css">
+    <link rel="stylesheet" href="./resources/css/components/secondary-articles.css">
     <link rel="stylesheet" href="./resources/css/components/button.css">
-    <title>Components</title>
+    <title>Colmar Academy | Home </title>
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
         <!-- NAV BAR -->
         <nav class="container">
@@ -32,29 +34,74 @@
         </nav>
     </header>
 
-
     <main>
-        <section class="container section">
-            <h2 class="title title-sections title-center">Title</h2>
-            <section class="split-section">
-                <article class="split-section_main">
-                    main
-                </article>
-                <div class="split-section_second border">
-                    seconds
+
+        <!-- PAGE HERO -->
+        <section class="container page-hero">
+            <figure class="page-hero_figure">
+                <img src="./resources/media/images/banner.jpg" alt="">
+            </figure>
+            <div class="page-hero_text">
+                <h2 class="title title-sections">Learn something new everyday</h2>
+                <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <button class="button">Start here</button>
+            </div>
+        </section>
+
+
+        <!-- NEWS SECTION -->
+        <section class="split-section">
+            <article class="split-section_main padding desktop">
+                <figure controls>
+                    <img src="./resources/media/images/information-main.jpg" alt="">
+                </figure>
+                <div class="split-section_main-text desktop">
+                    <h2 class="title title-sections">It doesn't hurt to keep practicing</h2>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque felis, dignissim quis
+                        turpis eu, varius imperdiet ex. Mauris varius justo quis metus vehicula, non blandit ante
+                        efficitur. Nam mi tortor."
+                    </p>
+                    <p>Author or something like that</p>
                 </div>
-            </section>
+            </article>
+            <div class="split-section_second border mobile">
+                <article class="split-section_second-article border">
+                    <figure>
+                        <img src="./resources/media/images/information-campus-mobile.jpg" alt="" class="mobile">
+                        <img src="./resources/media/images/information-campus.jpg" alt="" class="desktop">
+                    </figure>
+                    <div>
+                        <h3 class="subtitle">Our campus</h3>
+                        <p>Find which campus is close by you</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </article>
+                <article class="split-section_second-article border">
+                    <figure>
+                        <img src="./resources/media/images/information-orientation-mobile.jpg" alt="" class="mobile">
+                        <img src="./resources/media/images/information-orientation.jpg" alt="" class="desktop">
+                    </figure>
+                    <div>
+                        <h3 class="subtitle">Fisma: Design and Prototype</h3>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </article>
+                <article class="split-section_second-article border">
+                    <figure>
+                        <img src="./resources/media/images/information-guest-lecture-mobile.jpg" alt="" class="mobile">
+                        <img src="./resources/media/images/information-guest-lecture.jpg" alt="" class="desktop">
+                    </figure>
+                    <div>
+                        <h3 class="subtitle">Our guest lecture</h3>
+                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </article>
+            </div>
         </section>
 
-        <!-- ELEMNENTS -->
-        <section>
-            <h2 class="title title-sections">Learn something new everyday</h2>
-            <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-            <button class="button">oi</button>
-        </section>
-
-
-        <!-- GRID SECTION -->
+        <!-- START LEARNING -->
         <section class="container start-learning-section">
             <h2 class="title title-sections title-center">Start Learning</h2>
             <!-- GRID-FLEX SECTION -->
@@ -64,33 +111,104 @@
                         <img src="resources/media/images/course-software.jpg" alt="">
                     </figure>
                     <div class="subjects_article-text">
-                        <h3 class="subtitle">Software</h3>
+                        <h3 class="subtitle">Software engineering</h3>
                         <p class="desktop uppercase">Courses</p>
-                        <p class="desktop">Software courses</p>
+                        <p class="desktop">Web development, Mobile Development, iOT, APIs</p>
                     </div>
                 </article>
                 <article class="subjects_article">
                     <figure class="desktop">
-                        <img src="resources/media/images/course-software.jpg" alt="">
+                        <img src="resources/media/images/course-computer-art.jpg" alt="">
                     </figure>
                     <div class="subjects_article-text">
-                        <h3 class="subtitle">Software</h3>
+                        <h3 class="subtitle">Computer art</h3>
                         <p class="desktop uppercase">Courses</p>
-                        <p class="desktop">Software courses</p>
+                        <p class="desktop">Imaging & Desing, Web Design , Motion Graphics & Visual Effects, Computer
+                            Animation</p>
                     </div>
                 </article>
                 <article class="subjects_article">
                     <figure class="desktop">
-                        <img src="resources/media/images/course-software.jpg" alt="">
+                        <img src="resources/media/images/course-design.jpg" alt="">
                     </figure>
                     <div class="subjects_article-text">
-                        <h3 class="subtitle">Software</h3>
+                        <h3 class="subtitle">Design</h3>
                         <p class="desktop uppercase">Courses</p>
-                        <p class="desktop">Software courses</p>
+                        <p class="desktop">User Experience Design, User Research, Visual Design</p>
+                    </div>
+                </article>
+                <article class="subjects_article">
+                    <figure class="desktop">
+                        <img src="resources/media/images/course-data.jpg" alt="">
+                    </figure>
+                    <div class="subjects_article-text">
+                        <h3 class="subtitle">Data</h3>
+                        <p class="desktop uppercase">Courses</p>
+                        <p class="desktop">Data Science, Big Data, SQL, Data Visualization</p>
+                    </div>
+                </article>
+                <article class="subjects_article">
+                    <figure class="desktop">
+                        <img src="resources/media/images/course-business.jpg" alt="">
+                    </figure>
+                    <div class="subjects_article-text">
+                        <h3 class="subtitle">Business</h3>
+                        <p class="desktop uppercase">Courses</p>
+                        <p class="desktop">Product Development, Business Development, Startup</p>
+                    </div>
+                </article>
+                <article class="subjects_article">
+                    <figure class="desktop">
+                        <img src="resources/media/images/course-marketing.jpg" alt="">
+                    </figure>
+                    <div class="subjects_article-text">
+                        <h3 class="subtitle">Marketing</h3>
+                        <p class="desktop uppercase">Courses</p>
+                        <p class="desktop">Analytics, Content Marketing, Mobile Marketing</p>
                     </div>
                 </article>
             </section>
         </section>
+
+
+        <!-- NEWS SECTION -->
+        <section class="container section">
+            <h2 class="title title-sections title-center">Thesis exhibit</h2>
+            <section class="split-section">
+                <article class="split-section_main">
+                    <video controls>
+                        <source src="./resources/media/videos/thesis.mp4">
+                    </video>
+                    <div class="split-section_main-text desktop">
+                        <h3 class="subtitle">Reimagine urban</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in ligula tempus, tristique
+                            dolor id, iaculis odio. Phasellus purus velit, posuere ac est sed, varius.
+                        </p>
+                    </div>
+                </article>
+                <div class="split-section_second desktop">
+                    <article class="split-section_second-article">
+                        <figure>
+                            <img src="./resources/media/images/thesis-fisma.jpg" alt="">
+                        </figure>
+                        <div>
+                            <h3 class="subtitle">Fisma: Design and Prototype</h3>
+                            <p>Designer showcase of new prototype product</p>
+                        </div>
+                    </article>
+                    <article class="split-section_second-article">
+                        <figure>
+                            <img src="./resources/media/images/thesis-now-and-then.jpg" alt="">
+                        </figure>
+                        <div>
+                            <h3 class="subtitle">Fisma: Design and Prototype</h3>
+                            <p>Research about New York </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
@@ -103,6 +221,7 @@
             </ul>
         </nav>
     </footer>
+
 </body>
 
 </html>

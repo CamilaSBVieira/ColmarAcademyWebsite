@@ -13,10 +13,10 @@
         padding: 16px;
     }
     .split-section_second-article.border {
-        border-bottom: 1px solid var(--cinza-claro);
+        border-bottom: 1px solid var(--background);
     }
     .split-section_second-article:hover {
-        background-color: var(--cinza-claro);
+        background-color: var(--background);
         cursor: pointer;
     }
     .split-section_second-article figure {
